@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+h3{
+    color: green;
+}
+.important {color: blue;}
+
+#main {color:aquamarine}
+
+h3.title { color: purple; }
+
+ul {color: blanchedalmond;}

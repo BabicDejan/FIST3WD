@@ -1,0 +1,68 @@
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: beige;
+    /* Osnovna boja teksta */
+    color: #333;
+}
+
+h1 {
+    color: #05a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2,h3,h4 {
+    color: #0077cc;
+    margin-top: 20px;
+}
+
+p{
+    margin: 15px 0;
+    padding: 1px;
+    text-align: justify; /* 15 px gore i dolje, 0 lijevo i desno */
+}
+
+a {
+    color: #c00;
+    text-decoration: underline;
+    font-weight: bold
+}
+
+a:hover{
+    text-decoration: none;
+    color:#ff3300;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+ul, ol {
+    margin: 10px 40px;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Opisna lista */
+dl {
+    margin: 20px 40px;
+}
+
+dt {
+    font-weight: bold;
+    color: #444;
+}
+
+dd {
+    margin: 0 0 10px 20px;
+    color: #666;
+}

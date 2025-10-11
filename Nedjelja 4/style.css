@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    color: #333
+}
+
+.subject{
+    background-color: #cce7ff;
+    padding: 40px 20px;
+    text-align:center
+}
+
+.subject-content{
+    max-width: 600px;
+    margin: 0px auto;
+
+}
+
+.subject h1{
+    font-size:36px;
+    margin-bottom: 10px;
+}
+
+.subject p{
+    font-size: 18px;
+    color: #555;
+}
+
+.about-me{
+    background-color: #faf8f8;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-me-content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about-me h2{
+    font-size: 28px;
+    margin: 20px;
+}
+
+.about-me p{
+    font-size: 18px;
+    line-height: 1.6;
+    color:#444
+}
+
+
+.education{
+    background-color: #cce7ff;
+    padding: 60px 20px;
+}
+
+.education-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.education h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.edu-block{
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b3d1ff;
+}
+
+.edu-block h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:#222
+}
+
+.edu-block p{
+    font-size: 16px;
+    margin: 2px 0;
+    color: #555;
+}
+
+.skills{
+    background-color: #faf8f8;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.skills h2{
+    font-size:28px;
+    margin-bottom: 20px;
+}
+
+.skills ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li{
+    font-size:18px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #cce7ff;
+    border-radius:10px;
+}
+
+.project-content{
+    max-width: 700px;
+    margin:0 auto;
+}
+
+.project-content h2{
+    font-size:28px;
+    margin-bottom: 20px;
+}
+
+.skills-content, .project-content{
+    flex: 1 1 300px;
+    max-width: 500px;
+}
+
+.separator{
+    width: 2px;
+    background-color: #cce7ff;
+    align-self: stretch;
+    display: block;
+}
+
+
+.subject-img{
+    width: 30%;
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.contact-button{
+    background-color:#0077cc;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+}
+
+.contact-button:hover{
+    background-color: rgb(55, 156, 214);
+}
+
+.contact-content{
+    background-color: #cce7ff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    font-size: 18px;
+    margin:10px 0;
+}
+
+.contact a{
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+}
+
+
+.contact-form{
+    margin: 40px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid black ;
+    border-radius: 8px;
+    max-width: 500px;
+    
+}
+
+.contact-form:hover{
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5) ;
+}
+
+.contact-form input, 
+.contact-form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form button{
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover{
+    background-color: rgb(55, 156, 214);
+}
+
+@media(max-width: 768px){
+    .separator{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
