@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet", href="css/bootstrap.min.css">
+    <title>Kotor</title>
+</head>
+<body>
+    <header class="text-center text-white" style="background: url('img/header.jpg') center/cover no-repeat; height: 400px;">
+        <div class="h-100 d-flex flex-column justify-content-center align-items-center bg-dark bg-opacity-50">
+            <h1 class="display-3 fw-bold">KOTOR</h1>
+            <p class="lead">Grad pod Lovćenom</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container">
+            
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">
+                        <i class="bi bi-house-fill"></i> Pocetna
+                    </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galerija">Galerija</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#forma">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="container my-5">
+
+        <h2 class="text-center mb-4"> Dobrodosli u Kotor</h2>
+        <p class="lead text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet nibh dui, at pulvinar dui condimentum et. Phasellus euismod egestas maximus. Suspendisse dignissim ac eros a aliquet. Suspendisse ut nunc dictum, varius velit sit amet, euismod nulla. Nullam vitae porttitor nunc, id auctor orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam varius vel urna a maximus.
+        </p>
+
+    </section>
+
+    <section id="galerija" class="py-5 text-white" style="background: url('img/sea.jpg') center/cover no-repeat;">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-4 col-sm-12">
+                    <div class="p-4 bg-dark bg-opacity-75 rounded">
+                        <h4 class="text-decoration-underline">Stari grad</h4>
+                        <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet nibh dui, at pulvinar dui condimentum et.</p></div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="p-4 bg-dark bg-opacity-75 rounded">
+                        <h4 class="text-decoration-underline">Bedemi</h4>
+                        <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet nibh dui, at pulvinar dui condimentum et.</p></div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="p-4 bg-dark bg-opacity-75 rounded">
+                        <h4 class="text-decoration-underline">Luka Kotor</h4>
+                        <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet nibh dui, at pulvinar dui condimentum et.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section class="container my-5 w-50">
+        <div class="row g-5">
+            <div class="col-md-6 col-sm-12">
+                <h3>Kontakt informacije</h3>
+                <p><strong>Adresa:</strong> Stari grad, Kotor</p>
+                <p><strong>Telefon:</strong> +382 32 555 000</p>
+                <p><strong>Email:</strong> info@kotor.me</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h3>Posaljite poruku</h3>
+
+                <form id="forma">
+                    <div class="mb-3">
+                        <label for="ime" class="form-label">Ime</label>
+                        <input type="text" class="form-control" id="ime" placeholder="Vase ime i prezime..">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Vasa poruka: </label>
+                        <textarea class="form-control" id="poruka" rows="4" placeholder="Ovdje unesite Vasu poruku.."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary w-100"> Posalji poruku </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center text-white py-3 bg-dark">
+        &COPY; 2025 Web dizajn
+    </footer>
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
