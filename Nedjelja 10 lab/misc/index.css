@@ -1,0 +1,52 @@
+.forma-unos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    gap: 5px;
+}
+.linija{
+    margin-top: 1px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.vertikalna-linija{
+    width: 2px;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.kolona{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dogadjaj{
+    font-style: italic;
+}
+
+.proracuni{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+    padding-top: 30px;
+}
+.proracuni button{
+    background-color: aqua;
+}

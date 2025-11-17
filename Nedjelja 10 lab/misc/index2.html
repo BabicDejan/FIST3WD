@@ -1,0 +1,49 @@
+<!-- Ovaj dokument koristite da vjezbate rad sa DATE klasom -->
+
+<form>
+  <label for="vrijemeDogadjaja">Vrijeme događaja:</label>
+  <input
+    type="datetime-local"
+    id="vrijemeDogadjaja"
+    name="vrijemeDogadjaja"
+    step="60"
+  >
+  <input
+    type="datetime-local"
+    id="vrijemeDogadjaja1"
+    name="vrijemeDogadjaja"
+    step="60"
+  >
+  <button type="button", id="btn">Vidi sate</button>
+  <button type="button", id="btn1">Vidi sate</button>
+
+</form>
+
+<script>
+
+document.getElementById("btn").addEventListener("click", pokupiVrijeme);
+document.getElementById("btn1").addEventListener("click", pokupiVrijeme1);
+
+function pokupiVrijeme() {
+  const vrijednost = document.getElementById("vrijemeDogadjaja").value;
+  console.log("Vrijednost je:",vrijednost);
+  const datum = new Date(vrijednost);
+  console.log("Sati:", datum.getHours());
+  console.log("Minuti:", datum.getMinutes()/60);
+  console.log("Dan:", datum.getDay());
+
+}
+function pokupiVrijeme1() {
+  const vrijednost1 = document.getElementById("vrijemeDogadjaja").value;
+  const vrijednost = document.getElementById("vrijemeDogadjaja1").value;
+
+
+  const datum = new Date(vrijednost);
+  const datum1= new Date(vrijednost1);
+
+  let ukupno_sati_mil = Math.ceil((datum1.getTime() - datum.getTime())/(1000*60*60)) //sekunde, minuti, sati
+
+  console.log(ukupno_sati_mil);
+
+}
+</script>

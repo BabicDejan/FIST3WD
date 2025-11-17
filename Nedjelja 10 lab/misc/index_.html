@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="forma-unos">
+        <label for="tablice">Tablice: </label>
+        <input type="text" id="tablice">
+
+        <label for="vrijeme">Vrijeme: </label>
+        <input type="datetime-local" id="vrijeme">
+
+        <select id="tip-dogadjaja">
+            <option value="IN">IN</option>
+            <option value="OUT">OUT</option>
+        </select>
+
+        <button type="button" id="dodaj-dogadjaj-novi">Unesite dogadjaj</button>
+    </div>
+    <div class="linija"></div>
+    <div class="container">
+        <div class="kolona">
+            <h2>Tablice vozila</h2>
+            <div class="dogadjaj" id="auto-tablice"></div>
+        </div>
+        <div class="vertikalna-linija"></div>
+        <div class="kolona">
+            <h2>Vrijeme IN</h2>
+            <div class="dogadjaj" id="in"></div>
+        </div>
+        <div class="vertikalna-linija"></div>
+        <div class="kolona">
+            <h2>Vrijeme OUT</h2>
+            <div class="dogadjaj" id="out"></div>
+        </div>
+    </div>
+    <div class="linija"></div>
+    <div class="proracuni" id="naplata">
+        <button type="button" id="proracun">Zapocnite proracun</button>
+    </div>
+</body>
+<script src="parking.js"></script>
+</html>

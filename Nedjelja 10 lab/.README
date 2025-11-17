@@ -1,0 +1,4 @@
+Github folder je podijeljen na dva foldera:
+- U folderu "LAB", prikazan je kod sa vjezbi i dobra je osnova za produbljivanje problema
+- Folder "MISC" konkretno obuhvata i slucajeve vozila koje je vise puta ulazilo i izlazilo sa parkinga. Takodje, u .js fajlu u
+  ovom folderu, prikazana je i funkcija koja renderuje HTML sadrzaj svakog puta kada se doda novi objekat, ili izmijeni postojeci

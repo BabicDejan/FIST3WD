@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="forma-unos">
+        <label for="tablice">Tablice: </label>
+        <input type="text" id="tablice">
+
+        <label for="vrijeme">Vrijeme: </label>
+        <input type="datetime-local" id="vrijeme">
+
+        <select id="tip-dogadjaja">
+            <option value="IN">IN</option>
+            <option value="OUT">OUT</option>
+        </select>
+
+        <button type="button" id="dodaj-dogadjaj">Unesite dogadjaj</button>
+    </div>
+    <div class="linija"></div>
+    <div class="container">
+        <div class="dogadjaj" id="in">
+            <h2>Dogadjaji IN</h2>
+        </div>
+        <div class="vertikalna-linija"></div>
+        <div class="dogadjaj" id="out"><h2>Dogadjaji OUT</h2></div>
+    </div>
+    <div class="linija"></div>
+    <div class="proracuni" id="naplata">
+        <button type="button" id="proracun">Zapocnite proracun</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
