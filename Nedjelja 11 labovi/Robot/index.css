@@ -1,0 +1,16 @@
+.unos{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.unos input{
+    flex: 0 0 auto;
+    width: 50%;
+    
+}
+
+#prostorije li{
+    list-style: none;
+}

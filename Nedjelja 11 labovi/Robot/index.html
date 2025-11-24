@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="unos">
+        <h2>Testiraj performanse robota:</h2>
+
+        <label for="blok">Unesi blok: </label>
+        <p>U input polje mozete samo unijeti sledece blokove za povrsine:</p>
+        <ul>
+            <li>K (kamen) </li>
+            <li>P (parket) </li>
+            <li>L (laminat) </li>
+            <li>R (keramika) </li>
+            <li>X (blok koji je vec cist) </li>
+        </ul>
+        <div style="display: flex; flex-direction: row;">
+            <input type="text" id="blok">
+            <button type="button" id="unos-bloka">Unesi blok</button>
+            <button type="button" id="unos-niza">Zakljuci povrsinu</button>
+        </div>
+    </div>
+
+    <div class="unos" id="prostorije">
+        <h2>Uneseni nizovi: </h2>
+        <ul>
+
+        </ul>
+    </div>
+
+    <button type="button" style="margin: 0 auto; display: block;" id="izracunaj">Izracunaj</button>
+
+
+
+</body>
+<script src="index.js"></script>
+</html>
