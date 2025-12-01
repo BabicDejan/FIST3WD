@@ -1,0 +1,19 @@
+Server aplikacije:
+
+- WAMP - Server samo za Windows
+- MAMP - Server samo za MacOS
+- XAMPP - Versatilan, vise platformi
+- LAMP - Server za Linux
+
+Sustinski, svi implementiraju isti stack, samo za razlicite operativne sisteme (platforme) - Apache, PHP, MySQL ili MariaDB
+
+Za instalaciju na Windows platformi prvo preuzeti VC++ biblioteke i instalirati. 
+Sve VC++ runtime servise mozete preuzeti na ovom linku:
+
+https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/
+
+Otpakovati .zip i pokrenuti install-all.bat fajl kroz terminal. Ovo ce instalirati sve VC++ biblioteke. 
+
+C:\wamp64\bin\mysql\mysqlx.y.z\my.ini - u my.ini fajlu mozete da mijenjate portove za komunikaciju i pokretanje MySQL servera ili MySQLD (MariaDB) servera.
+
+
